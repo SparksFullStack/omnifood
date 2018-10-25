@@ -107,11 +107,13 @@ header {
     height: 100px;
     width: auto;
     float: left;
+    margin-top: 20px;
 }
 
 .main-nav {
     float: right;
     list-style: none;
+    margin-top: 55px;
 }
 
 .main-nav li {
@@ -119,9 +121,17 @@ header {
     margin-left: 40px;
 }
 
-.main-nav li a {
+.main-nav li a:link,
+.main-nav li a:visited {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
 }
