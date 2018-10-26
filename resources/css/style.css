@@ -35,6 +35,15 @@ section {
     padding: 1%;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* -----Headings----- */
 h1, 
 h2,
@@ -198,8 +207,20 @@ header {
 }
 
 /* ------------------------------- */
+/* Features */
+/* ------------------------------- */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+/* ------------------------------- */
 /* Meals */
 /* ------------------------------- */
+
+.section-meals {
+    padding: 0;
+}
 
 .meals-showcase {
     list-style: none;
@@ -215,9 +236,72 @@ header {
 .meal-photo {
     width: 100%;
     margin: 0;
+    /* overflow: hidden; */
+    background-color: #000;
 }
 
 .meal-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+/* ------------------------------- */
+/* How It Works */
+/* ------------------------------- */
+
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box {
+    margin-top: 30px;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-left: 25px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
