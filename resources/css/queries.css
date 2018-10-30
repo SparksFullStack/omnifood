@@ -8,7 +8,7 @@
 
     .row { padding: 0 2% }
 
-    .sticky { height: 10% }
+    .sticky { height: 8% }
 }
 
 /* small tablets to large tablets */
@@ -42,7 +42,6 @@
     .plan-price { font-size: 250% }
     .contact-form { width: 80% }
 
-    
 }
 
 /* small phones to small tablets */
@@ -84,6 +83,10 @@
     .works-steps { margin-bottom: 20px }
     .works-steps:last-of-type { margin-bottom: 20px }
 
+    .app-buttons {
+        text-align: center;
+    }
+
     .footer-nav {
         text-align: center;
         float: none;
@@ -97,8 +100,6 @@
     footer p {
         margin-top: 0;
     }
-
-    .sticky { height: 10% }
 }
 
 /* small phones */
