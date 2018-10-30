@@ -11,6 +11,8 @@ $(document).ready(function(){
         offset: '93%'
     });
 
+
+    // button scrolling
     $('.js--scroll-to-plans').click(function (){
         $('html, body').animate({ scrollTop: $('.js--section-plans').offset().top}, 1250);
     })
@@ -19,6 +21,7 @@ $(document).ready(function(){
         $('html, body').animate({ scrollTop: $('.js--section-features').offset().top}, 1000);
     })
 
+    // navbar scrolling
     $('.js--food-delivery').click(function(){
         $('html, body').animate({ scrollTop: $('.js--section-meals').offset().top}, 1000);
     })
