@@ -83,6 +83,8 @@
     .works-steps { margin-bottom: 20px }
     .works-steps:last-of-type { margin-bottom: 20px }
 
+    .steps-box { margin-bottom: 0 }
+
     .app-buttons {
         text-align: center;
     }
