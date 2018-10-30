@@ -65,6 +65,11 @@
     .app-screen { width: 40% }
     .steps-box:first-child { text-align: center }
 
+    .plan-box div p,
+    .plan-box div ul li {
+        text-align: center;
+    }
+
     .works-step div {
         height: 40px;
         width: 40px;
@@ -75,6 +80,20 @@
 
     .works-steps { margin-bottom: 20px }
     .works-steps:last-of-type { margin-bottom: 20px }
+
+    .footer-nav {
+        text-align: center;
+        float: none;
+    }
+    
+    .social-links {
+        text-align: center;
+        float: none;
+    }
+
+    footer p {
+        margin-top: 0;
+    }
 }
 
 /* small phones */
