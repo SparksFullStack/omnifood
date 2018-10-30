@@ -39,13 +39,25 @@
     }
 
     .plan-price { font-size: 250% }
-
     .contact-form { width: 80% }
 }
 
 /* small phones to small tablets */
 @media only screen and (max-width: 767px) {
-    
+    body { font-size: 16px }
+    .contact-form { padding: 30px 0 }
+
+    .row, .hero-text-box { padding: 0 4% }
+    .col { width: 100% }
+    .main-nav { display: none }
+
+    h1 { font-size: 180% }
+    h2 { font-size: 150% }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
 }
 
 /* small phones */
