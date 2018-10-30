@@ -8,6 +8,7 @@
 
     .row { padding: 0 2% }
 
+    .sticky { height: 10% }
 }
 
 /* small tablets to large tablets */
@@ -40,6 +41,8 @@
 
     .plan-price { font-size: 250% }
     .contact-form { width: 80% }
+
+    
 }
 
 /* small phones to small tablets */
@@ -52,7 +55,7 @@
         width: 100%;
         margin: 0 0 4% 0;
     }
-    .main-nav { display: none }
+    
 
     h1 { font-size: 180% }
     h2 { font-size: 150% }
@@ -94,10 +97,15 @@
     footer p {
         margin-top: 0;
     }
+
+    .sticky { height: 10% }
 }
 
 /* small phones */
 @media only screen and (max-width: 480px) {
+    .main-nav {
+        display: none;
+    }
     section { padding: 25px 0 }
     .contact-form { width: 100% }
 }
